@@ -81,17 +81,12 @@ class NL_Translator extends NL_UrlSanitizer{
 	var $mode;
 
 	function NL_Translator() {
-		
-		
 		NL_refine_request();
-		echo "damee";
-		/*
 		$this->termStats = array();
 		$this->newDict = array();
 		$this->stats[ID_NEW] = 0;
 		$this->stats[ID_EXISTS] = 0;
 		$this->annotation = true;
-		*/
 	}
 
 	function TermsNewDoSave() {

@@ -27,7 +27,5 @@ define ('TARJ_DIR','inc/');
 require_once(TARJ_DIR.'NL_Translator_ID2SU.class.inc');
 
 $tarjamah = new NL_Translator_ID2SU();
-/*
 $tarjamah->HandleRequestText();
-*/
 ?>
